@@ -1,6 +1,6 @@
 <!-- views/layouts/main.ejs -->
-<%- include('../partials/header') %>
-<main role="main" class="container">
+<%- include('partials/header', { user: user }) %>
+<main class="container mt-4">
   <%- body %>
 </main>
-<%- include('../partials/footer') %>
+<%- include('partials/footer') %>
