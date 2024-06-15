@@ -1,0 +1,28 @@
+<h2>Regisztráció</h2>
+<form action="/register" method="POST">
+  <div class="form-group">
+    <label for="neptun">Neptun kód</label>
+    <input type="text" class="form-control" id="neptun" name="neptun" required>
+  </div>
+  <div class="form-group">
+    <label for="password">Jelszó</label>
+    <input type="password" class="form-control" id="password" name="password" required>
+  </div>
+  <div class="form-group">
+    <label for="confirmPassword">Jelszó megerősítése</label>
+    <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required>
+  </div>
+  <div class="form-group">
+    <label for="name">Név</label>
+    <input type="text" class="form-control" id="name" name="name" required>
+  </div>
+  <div class="form-group">
+    <label for="email">Email cím</label>
+    <input type="email" class="form-control" id="email" name="email" required>
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="acceptTerms" name="acceptTerms" required>
+    <label class="form-check-label" for="acceptTerms">Elfogadom a Hálózati szabályzatot</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Regisztráció</button>
+</form>
