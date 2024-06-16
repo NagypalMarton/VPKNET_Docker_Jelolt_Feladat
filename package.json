@@ -4,9 +4,7 @@
   "description": "VPKNet 2024 tavasz\r MVC modellel van elksészítve!\r Alkalmazott komponensek:\r - Bootstrap v5.3.3\r - MySQL\r - ExpressJS\r - Body-parser",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -15,9 +13,7 @@
     "body-parser": "^1.20.2",
     "ejs": "^3.1.10",
     "express": "^4.19.2",
-    "express-ejs-layouts": "^2.5.1",
-    "mysql2": "^3.10.1",
-    "sequelize": "^6.37.3"
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.3"
